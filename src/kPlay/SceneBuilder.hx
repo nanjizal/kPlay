@@ -36,7 +36,7 @@ class SceneBuilder {
     }
     public function end(){
         var scene = End.scene();
-        addMenu( scene, 1, SceneProps.white, SceneProps.black, SceneProps.black );
+        addMenu( scene, 2, SceneProps.white, SceneProps.black, SceneProps.black );
         add( scene );
         return scene;
     }
