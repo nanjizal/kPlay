@@ -1,0 +1,10 @@
+let project = new Project('kPlay');
+project.addSources('src');
+project.addShaders('src/Shaders/**');
+project.addAssets('Assets/**');
+project.addLibrary('tweenx');
+project.addLibrary('kScenes');
+project.addLibrary('justTriangles');
+project.windowOptions.width = 1024;
+project.windowOptions.height = 768;
+resolve(project);

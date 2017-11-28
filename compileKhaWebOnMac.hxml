@@ -1,0 +1,1 @@
+-cmd node Kha/make -t html5 --ffmpeg '/usr/local/Cellar/ffmpeg/3.4/bin/ffmpeg'
